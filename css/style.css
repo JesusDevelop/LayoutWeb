@@ -1,5 +1,6 @@
 body{
     background-color: red;
+    display: inline;
 }
 
 .header{
@@ -26,4 +27,29 @@ body{
     text-decoration: none;
     color: blue;
 
+}
+.principal{
+    display: inline-block;
+}
+.lateral{
+    height: 85vh;
+    width: 25vw;
+    background-color: rgb(255, 115, 0);
+    position: absolute;
+    margin-left: auto;
+}
+
+.elemento-lateral{
+    display: block;
+    background-color: rgba(247, 226, 39, 0.671);
+    width: 20vw;
+    height: 18vh;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+main{
+    width: 72vw;
+    display: inline-block;
+    
 }
