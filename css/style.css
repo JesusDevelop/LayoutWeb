@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.header{
+    background-color: azure;
+    width: 100vw;
+    min-width: 375;
+    height: 15vh;
+    position: absolute;
+}
+.logo{
+    display: inline-block;
+    margin: 10px;
+
+}
+.nav{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 5em;
+}
+.nav-element li{
+    display: inline-block;
+}
+.nav-element li a{
+    font-style: italic;
+    text-decoration: none;
+    color: blue;
+
+}
