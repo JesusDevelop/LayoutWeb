@@ -1,12 +1,12 @@
 body{
-    background-color: red;
-    display: inline;
+    background-color: rosybrown;
+    display: block;
 }
 
 .header{
     background-color: azure;
     min-width: 375px;
-    height: 15vh;
+    height: 10vh;
 }
 .logo{
     display: inline-block;
@@ -19,6 +19,11 @@ body{
     position: absolute;
     right: 5em;
 }
+
+.principal{
+    display: inline;
+}
+
 .nav-element li{
     display: inline-block;
 }
@@ -28,12 +33,11 @@ body{
     color: blue;
 
 }
-.principal{
-    display: inline-block;
-}
+
+
 .lateral{
     display: inline-block;
-    height: 85vh;
+    height: 80vh;
     width: 25vw;
     background-color: rgb(255, 115, 0);
     position: absolute;
@@ -44,13 +48,29 @@ body{
     display: block;
     background-color: rgba(247, 226, 39, 0.671);
     width: 20vw;
-    height: 18vh;
+    height: 15vh;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 3vh;
 }
 
 .content{
     position: relative;
     left: 26vw;
+    min-height: 77.5vh;
     margin-right: 28%;
+}
+
+.footer{
+    background-color: azure;
+    height: 10vh;
+}
+
+.footer div{
+    display: inline-block;
+    padding: 10px;  
+}
+
+.footer-redes{
+    position: absolute;
+    right: 0;
 }
