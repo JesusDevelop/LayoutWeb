@@ -32,11 +32,12 @@ body{
     display: inline-block;
 }
 .lateral{
+    display: inline-block;
     height: 85vh;
     width: 25vw;
     background-color: rgb(255, 115, 0);
     position: absolute;
-    margin-left: auto;
+
 }
 
 .elemento-lateral{
@@ -44,12 +45,12 @@ body{
     background-color: rgba(247, 226, 39, 0.671);
     width: 20vw;
     height: 18vh;
-    margin: 0 auto;
     border-radius: 5px;
-    
+    margin: 0 auto;
 }
-main{
-    width: 72vw;
-    display: inline-block;
-    
+
+.content{
+    position: relative;
+    left: 26vw;
+    margin-right: 28%;
 }
